@@ -14,7 +14,7 @@ const Home = () => {
   <Navigation />
   <div>
     <Logo />
-    <p className = "pa3 center"> Her Bra&ensp;&ensp;•&ensp;&ensp;Her Self-Esteem&ensp;&ensp;•&ensp;&ensp;Her Period</p><br></br><br></br>
+    <p  style = {{display: 'flex', justifyContent: 'center'}} className = "pt2 pb3 f4 f3-ns ml1 ml7-ns mr1 mr7-ns"> Her Bra&ensp;&ensp;•&ensp;&ensp;Her Self-Esteem&ensp;&ensp;•&ensp;&ensp;Her Period</p><br></br><br></br>
     <Gold/>
 </div>
 </div>
