@@ -28,7 +28,6 @@ background: -o-linear-gradient(transparent, transparent);
 .bracket {
   display: 'grid';
   grid-template-columns: 1fr;
-	width:900px;
 	margin: 0 auto;
 	box-shadow: 1px 1px 11px 2px rgba(0,0,0,0.1);
 	background: white;
