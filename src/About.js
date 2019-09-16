@@ -9,8 +9,8 @@ const About = () => {
   	<div>
 
     	<Navigation showLogo={true}/>
-		<div className = ' bracket tl pr4 pl4 pb4 '>
-      		<h6 className = 'tc pa5 pb4 mt0'> Who We Are </h6>
+		<div className = ' bracket w-100 w-50-ns tl pr1 pr4-ns pl1 pl4-ns pb4 '>
+      		<h6 className = 'tc pa3 f1 f-subheadline-ns mt0'> Who We Are</h6>
 
       		<h2 className = "pa4 pt2 pl4">
 				
