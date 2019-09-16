@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.gold-text {
+color:#c3a343;
+-webkit-text-fill-color: transparent;
+background: -webkit-linear-gradient(transparent, transparent),
+url(http://example.com/gold-texture-image.png) repeat;
+background: -o-linear-gradient(transparent, transparent);
+-webkit-background-clip: text;
+}
+
+
+

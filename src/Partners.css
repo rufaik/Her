@@ -1,0 +1,25 @@
+.cats {
+ 
+  display: flex;
+  align-items: baseline;
+  border-radius: 50%;
+  justify-content: center;
+
+}
+
+.cats img {
+	 width:130px;
+	border-radius: 50%;
+	box-shadow: 0 0.15rem 0.35rem rgba(0, 0, 0, 0.2);
+	margin:15px;
+}
+
+
+.horse  {
+	border-bottom-style: solid;
+	border-bottom-color: #d4af37;
+	border-bottom-width: thin;
+	width:650px;
+ 	margin:auto;
+}
+
