@@ -46,7 +46,7 @@ class Navigation extends Component{
 	render(){
 	return (
 		
-		<nav style = {{display: 'flex', justifyContent: 'flex-end'}}>
+		<nav style = {{display: 'flex', justifyContent: 'flex-end', width:'100%' ,position: 'fixed'}}>
 			
 			<div>
 				{this.getLogo()}
@@ -56,7 +56,7 @@ class Navigation extends Component{
 
 			<div>
 				<Link  to="/Contact">
-					<h3 className='f3 link dim pt1 underline mr5 pointer'>  Contact Us </h3>
+					<h3 className='f5 link dim pt1 underline mr5 pointer'>  Contact Us </h3>
 				</Link>
 			</div>
 		</nav>

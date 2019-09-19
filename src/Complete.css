@@ -25,3 +25,48 @@ background: -o-linear-gradient(transparent, transparent);
 -webkit-background-clip: text;
 }
 
+.help{
+	
+	color: grey;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 900;
+	
+}
+
+.A{
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+	}
+	.B{
+	font-family: 'Cormorant Garamond', serif;}
+	.C{
+	font-family: 'DM Serif Display', serif;}
+	.D{
+	font-family: 'DM Serif Text', serif;}
+	.E{
+	font-family: 'Libre Caslon Display', serif;}
+	.F{
+	font-family: 'Noto Serif SC', serif;}
+	.G{
+	font-family: 'Open Sans Condensed', sans-serif;}
+	.H{
+	font-family: 'Philosopher', sans-serif;}
+	.I{
+	font-family: 'Tenor Sans', sans-serif;
+	color: grey;
+	}
+	.J{
+	font-family: 'Tenor Sans', sans-serif;
+	color: grey;
+	font-size: 10vw;
+	}
+	.K{
+	font-family: 'Cormorant', serif;}
+	.L{
+	font-family: 'Oranienbaum', serif;}
+	.M{
+	font-family: 'Chonburi', cursive;}
+	.N{
+	font-family: 'Rakkas', cursive;}
+	

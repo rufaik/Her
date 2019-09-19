@@ -34,3 +34,65 @@ background: -o-linear-gradient(transparent, transparent);
 	border-radius: 8px;
 
 }
+
+.curr{
+font-family: 'Lato', sans-serif;
+
+  color: grey;
+}
+
+.like {
+  font-family: 'Libre Caslon Display', serif;
+  color:  #d4af37;
+}
+
+
+
+.headers{
+font-family: 'Rasa', serif; 
+/*font-family: 'Rambla', sans-serif;*/
+  color: #d4af37;
+}
+
+
+.mainBody{
+font-family: 'Oranienbaum', serif;
+  color: #d4af37;
+
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #d4af37;
+}
+
+tr.no-bottom-border td {
+  border-bottom: none
+}
+
+
+.ink {
+ 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5%;
+  border-radius: 50%;
+
+}
+
+.ink button {
+   width:9vw;
+   height:9vw;
+  border-radius: 50%;
+  box-shadow: 0 0.15rem 0.35rem rgba(0, 0, 0, 0.2);
+  
+  
+}
+
+
+
+
+
+
+

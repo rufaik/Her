@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
  { background:
      radial-gradient(black 3px, transparent 4px),
@@ -9,7 +9,7 @@
      #fff;
      background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
      background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
- }}
+ }}*/
 
 
 .App-logo {
@@ -30,11 +30,35 @@
   width: 500px;
 }
 
-p{
-  font-family: 'Dancing Script';
-  color:  #d4af37;
+.title {
+  font-size: 120px
+}
 
-  font-weight: 550;
+p{
+ font-family: 'Great Vibes', cursive;
+ font-family: 'GFS Neohellenic', sans-serif;
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Heebo', sans-serif;*/
+/*font-family: 'Domine', serif;*/
+font-family: 'Cinzel', serif; 
+/*font-family: 'Alegreya', serif;!!!!!*/
+/*font-family: 'Old Standard TT', serif; !!!!!*/
+/*font-family: 'Josefin Slab', serif;*/
+/*font-family: 'Vidaloka', serif;*/
+/*font-family: 'Rasa', serif; !!!!*/
+/*font-family: 'Boogaloo', cursive;*/
+/*font-family: 'Rambla', sans-serif;*/
+/*font-family: 'Berkshire Swash', cursive;*/
+/*font-family: 'Oranienbaum', serif;*/
+/*font-family: 'Cinzel Decorative', cursive;*/
+/*font-family: 'Calligraffitti', cursive;*/
+/*font-family: 'Rye', cursive;*/
+/*font-family: 'Andada', serif;*/
+/*font-family: 'IM Fell Double Pica', serif;*/
+   color:  #d4af37;
+
+  font-weight: 100;
   background: white;
   
  
@@ -47,15 +71,16 @@ h2{
  
   font-weight: 100;
   background: white;
- 
- 
-  
- 
+}
+
+.desc{
+  color:  #d4af37;
+  font-family: 'Dancing Script', cursive; 
 }
 
 
 
-h5{
+.four{
   color:  grey;
   font-size: 19px;
   font-weight: 100;
@@ -71,12 +96,17 @@ h5{
 
 .two {
   font-family: 'Kaushan Script', cursive;
-  
+  color: grey;
   flex:none;
 }
 
+.three{
+   font-family: 'Kaushan Script', cursive;
+  color:  #d4af37;
+
+}
 h6{
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Cinzel', serif; 
   font-weight: 100;
   color: grey;
   margin-bottom: 0px;
@@ -86,18 +116,18 @@ h6{
 
 
 h3{
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Cinzel', serif; 
   color:  #d4af37;
-  font-size: 27px;
+  font-size: 20px;
   font-weight: 500;
   background: white;
  
 }
 
 h4{
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Cinzel', serif; 
   color:  #d4af37;
-  font-size: 23px;
+  font-size: 19px;
   font-weight: 500;
   background: white;
  

@@ -15,6 +15,7 @@ import {
   BrowserRouter,
   Redirect
 } from "react-router-dom"
+import {Animated} from "react-animated-css"
 
 
 

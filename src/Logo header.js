@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Logo header.css';
-import hers from './Big.png' 
+import hers from './NEW.png' 
 import {Link} from 'react-router-dom';
 
 
@@ -32,7 +32,7 @@ class Logo extends Component{
 	render(){
 		return (
 	    
-	    <div className = 'form ma2 pt4 pa3'>
+	    <div className = 'form ma2 pt3 pa3'>
 	      
 	      <Link to="/Me"><img  alt ='logo' src={hers} style={{ width: this.state.size }}/></Link>
 
