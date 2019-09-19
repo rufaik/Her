@@ -13,7 +13,7 @@ const About = () => {
 		<div className = ' bracket w-100 w-50-ns tl pr1 pr4-ns pl1 pl4-ns pb4 '>
       		<div className = 'I tc pa4 f1 f-subheadline-ns mt0'> Who We Are</div>
 
-      		<div className = "mainBody gray pa4 pb0 tc pt2 pl4">
+      		<div style = {{ color: 'gray'}} className = "mainBody gray pa4 pb0 tc pt2 pl4">
 				
 				HerBasics was founded by Kemi Rufai, she has been working with young people since 2014, helping them to realise their potential and walking beside them while they navigate life’s obstacles. She is passionate about equipping young people with the correct tools to make healthy decisions and make sure they have what it takes to stand when life doesn’t play along.
 

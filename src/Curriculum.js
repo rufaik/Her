@@ -40,7 +40,7 @@ const Curriculum = () => {
 				</div>
 
     		</ul>
-    		<div className = "mainBody gray f2 f1-ns pb2 ">Programmes we offer..</div>
+    		<div className = "mainBody gray f2 f1-ns pb2 " style = {{color: 'gray'}} >Programmes we offer..</div>
 				<div className = "mainBody f6 tl mt0 pl3 pr3"> Research shows that 80% women are wearing the wrong bra size AND have low self -esteem and 1 in 4 women don't understand their menstrual cycle 
 
 				Our role is to create a foundation for your girls to make informed decisions in the right direction.

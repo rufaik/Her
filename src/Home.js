@@ -9,6 +9,10 @@ import LogoHeader from './Logo header'
 import Navigation from './Navigation'
 import 'tachyons';
 import {Link} from 'react-router-dom';
+import Logo from './Logo'
+import './Logo.css';
+import Gold from './Gold'
+import {Animated} from "react-animated-css"
 
  
 
