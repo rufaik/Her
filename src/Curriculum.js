@@ -48,7 +48,7 @@ const Curriculum = () => {
 				As we understand that every school and project have different needs we have 4 programs which vary in topics and length 
 				</div>
 				
-				<div className = "ink tc ma0 pl3 pl2-ns pr3 pr2-ns pt4 pb0">
+				<div style = {{color: 'gray'}} className = "ink tc ma0 pl3 pl2-ns pr3 pr2-ns pt4 pb0">
 				<a href="#1"><button className = " mainBody gray" >
 				1</button></a>
 				
@@ -65,7 +65,7 @@ const Curriculum = () => {
 
 
 
-				<div id="1" className = "mainBody gray f3 pb3 pt4"  > Programme 1 </div>
+				<div id="1" style = {{color: 'gray'}} className = "mainBody gray f3 pb3 pt4"  > Programme 1 </div>
 				<div className= "four pl4">
 				<table>
 					  <tr>
@@ -107,7 +107,7 @@ const Curriculum = () => {
 				</table>
 				</div>
 
-				<div id="2" className = "mainBody gray f3 pb3 pt4"  > Programme 2 </div>
+				<div id="2" style = {{color: 'gray'}} className = "mainBody gray f3 pb3 pt4"  > Programme 2 </div>
 				<div className= "four pl4">
 				<table>
 					  <tr>
@@ -156,7 +156,7 @@ const Curriculum = () => {
 				</table>
 				</div>
 
-				<div id="3" className = "mainBody gray f3 pb3 pt4"  > Programme 3 </div>
+				<div id="3" style = {{color: 'gray'}} className = "mainBody gray f3 pb3 pt4"  > Programme 3 </div>
 				<div className= "four pl4">
 				<table>
 					  <tr>
@@ -196,7 +196,7 @@ const Curriculum = () => {
 				</table>
 				</div>
 
-				<div id="4" className = "mainBody gray f3 pb3 pt4"  > Programme 4 </div>
+				<div id="4" style = {{color: 'gray'}} className = "mainBody gray f3 pb3 pt4"  > Programme 4 </div>
 				<div className= "four pl4">
 				<table>
 					  <tr>
