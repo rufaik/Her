@@ -34,7 +34,7 @@ class Logo extends Component{
 	    
 	    <div className = 'form ma2 pt3 pa3'>
 	      
-	      <Link to="/Me"><img  alt ='logo' src={hers} style={{ width: this.state.size }}/></Link>
+	      <Link to="/Home"><img  alt ='logo' src={hers} style={{ width: this.state.size }}/></Link>
 
 	    </div>
 

@@ -72,7 +72,7 @@ const Contact = () => {
 		    </fieldset>
 		    
 		   <div className="lh-copy mt3">
-		      <Link to="/Me"><h3 className="f6 link dim underline pointer db">Return Home</h3></Link>
+		      <Link to="/Home"><h3 className="f6 link dim underline pointer db">Return Home</h3></Link>
 		     
 		    </div>
 		  </form>

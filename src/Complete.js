@@ -7,7 +7,7 @@ import  Curriculum from './Curriculum'
 import  Partners from './Partners'
 import  About from './About'
 import  Complete from './Complete'
-import Me from './Me'
+import Home from './Home'
 import Gold from './Gold'
 
 
