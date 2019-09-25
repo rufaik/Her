@@ -61,8 +61,13 @@ font-family: 'Oranienbaum', serif;
 
 }
 
-th, td {
+td.frog{
   padding: 8px;
+
+  }
+
+th, td {
+  
   text-align: left;
   border-bottom: 1px solid #d4af37;
 }
@@ -90,6 +95,39 @@ tr.no-bottom-border td {
   
 }
 
+.apple{
+
+  font-family: medium-marketing-display-font, Georgia, Cambria, "Times New Roman", Times, serif;
+
+}
+
+.golcol{
+  color: #d4af37;
+}
+
+ul.bullet{
+  list-style-type: square;
+}
+
+table.lassy {
+  table-layout: fixed ;
+  width: 100% ;
+}
+td.lassy {
+  width: 25% ;
+
+
+}
+
+
+td {
+  vertical-align: top;
+}
+
+
+td.down {
+  vertical-align: bottom;
+}
 
 
 

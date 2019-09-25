@@ -10,38 +10,71 @@ const Curriculum = () => {
   return (
 
   	<div>
-
+  		<div>
     	<Navigation showLogo={true}/>
+    	</div>
     	<div className="pt5">
-		<div className = ' bracket w-100 w-50-ns tl pr1 pr4-ns pl1 pl4-ns pb4 '>
+		<div className = ' bracket w-100 w-60-ns tl pr1 pr4-ns pl1 pl4-ns pb4 '>
       		<div className = 'I tc pa4 f1 f-subheadline-ns mt0'> Our Curriculum</div>
-   	 		<div className = " mainBody center f6 tc mt0 pl3 pr3" >Our Vision is that every woman would be equipped with the basics of self-care and self-worth from as early as possible. We want young women to start their journey into adolescent equipped and confident when making decisions about their bodies. We do this by teaching 3 main modules..</div>
-			<ul>
-				<br></br>
-				<div className = "mainBody" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "gray f3 f2-ns "> Her Self-esteem</div><div className = "pt2 pt3-ns" >&nbsp;covers...</div></div>
-				<div className = "four pa4 pt2 pl4">
-				<li>Basic Worth - the value that each person possess regardless of their external environment</li>
-				<li>Basic Strength - how resilience and discipline play a role in our lives</li>
-				<li>Basic Purpose - knowing that every person has a purpose</li>
-				</div><br></br><br></br>
+   	 		<div className = "golcol apple center f6 tc mt0 pl3 pb4 pr3" >Our Vision is that every woman would be equipped with the basics of self-care and self-worth from as early as possible. We want young women to start their journey into adolescent equipped and confident when making decisions about their bodies. We do this by teaching 3 main modules..</div>
+			<br></br>
 
-				<div className = "mainBody" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "gray f3 f2-ns "> Her Bra</div><div className = "pt2 pt3-ns" >&nbsp;covers...</div></div>
-				<div className = "four pa4 pt2 pl4">
-				<li>Basic Mechanics - the structure of a bra, why each part is necessary and sizing</li>
-				<li>Basic Shopping how-to - how to buy good bra</li>
-				<li>Basic Must Haves - what bras are essential and necessary</li>
-				</div><br></br><br></br>
+   	 		<table className = "lassy pb0">
+					  <tr className= "no-bottom-border">
+					    <td className = "lassy">
+						    <div className = "apple" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "gray f3 f5-ns "> Her Self-esteem</div><div className = "pt2 golcol f7 pt1-ns" >&nbsp;covers...</div></div>
+							
+					    </td>
+					    <td className = "lassy">
+						    <div className = "apple" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "gray f3 f5-ns "> Her Bra</div><div className = "pt2 golcol f7 pt1-ns" >&nbsp;covers...</div></div>
+							
+					    </td>
+					    <td className = "lassy">
+					    	<div className = "apple" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "gray f3 f5-ns "> Her Period</div><div className = "pt2 golcol f7 pt1-ns" >&nbsp;covers...</div></div>
+							
+							
+							
+					    </td>
+					    
+					  </tr>
 
-				<div className = "mainBody" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "gray f3 f2-ns "> Her Period</div><div className = "pt2 pt3-ns" >&nbsp;covers...</div></div>
-				<div className = "four pa4 pt2 pl4">
-				<li>Basic Biology - what happens in the body when a woman is on her period</li>
-				<li>Basic Hygiene - the increased levels of hygiene that a woman should participate now that her period has begun</li>
-				<li>Basic Must-Haves - the importance of pads, tampons and deodorant</li>
-				</div>
+					  <tr className = "apple gray mb3 f6 no-bottom-border">
+					  	<td>
+						  
+							<ul className = 'bullet'>
+							<li>Basic Worth - the value that each person possess regardless of their external environment</li>
+							<li>Basic Strength - how resilience and discipline play a role in our lives</li>
+							<li>Basic Purpose - knowing that every person has a purpose</li>
+					    	</ul>
+					    	
+					    </td>
+					    <td>
+						  
+							<ul className = 'bullet'>
+							<li>Basic Mechanics - the structure of a bra, why each part is necessary and sizing</li>
+							<li>Basic Shopping how-to - how to buy good bra</li>
+							<li>Basic Must Haves - what bras are essential and necessary</li>
+							</ul>
+						
+					    </td>
+					    <td>
+					    
+							<ul className = 'bullet'>
+							<li>Basic Biology - what happens in the body when a woman is on her period</li>
+							<li>Basic Hygiene - the increased levels of hygiene that a woman should participate now that her period has begun</li>
+							<li>Basic Must-Haves - the importance of pads, tampons and deodorant</li>
+							</ul>
+							
+					    </td>
 
-    		</ul>
-    		<div className = "mainBody gray f2 f1-ns pb2 " style = {{color: 'gray'}} >Programmes we offer..</div>
-				<div className = "mainBody f6 tl mt0 pl3 pr3"> Research shows that 80% women are wearing the wrong bra size AND have low self -esteem and 1 in 4 women don't understand their menstrual cycle 
+
+
+					  </tr>
+
+			</table>
+
+    		<div className = "apple gray pt3 f2 f1-ns pb2 " style = {{color: 'gray'}} >Programmes we offer..</div>
+				<div className = "apple golcol f6 tl mt0 pl3 pr3"> Research shows that 80% women are wearing the wrong bra size AND have low self -esteem and 1 in 4 women don't understand their menstrual cycle 
 
 				Our role is to create a foundation for your girls to make informed decisions in the right direction.
 
@@ -49,28 +82,28 @@ const Curriculum = () => {
 				</div>
 				
 				<div style = {{color: 'gray'}} className = "ink tc ma0 pl3 pl2-ns pr3 pr2-ns pt4 pb0">
-				<a href="#1"><button className = " mainBody gray" >
+				<a href="#1"><button className = " apple gray" >
 				1</button></a>
 				
-				<a href="#2"><button className = " mainBody gray" >
+				<a href="#2"><button className = " apple gray" >
 				2</button></a>
 
-				<a href="#3"><button className = " mainBody gray" >
+				<a href="#3"><button className = " apple gray" >
 				3</button></a>
 
-				<a href="#4"><button className = " mainBody gray" >
+				<a href="#4"><button className = " apple gray" >
 				4</button></a>
 				
 				</div>
 
 
 
-				<div id="1" style = {{color: 'gray'}} className = "mainBody gray f3 pb3 pt4"  > Programme 1 </div>
-				<div className= "four pl4">
-				<table>
+				<div id="1" style = {{color: 'gray'}} className = "apple gray f3 pb3 pt4"  > Programme 1 </div>
+				<div className= "apple gray pl4">
+				<table className ="pa2 frog">
 					  <tr>
-					    <td>Number of Participants</td>
-					    <td>5-500</td>
+					    <td>No. of Participants&nbsp;&nbsp;</td>
+					    <td className="down pb1" >5-500</td>
 					    
 					  </tr>
 					  <tr>
@@ -107,11 +140,11 @@ const Curriculum = () => {
 				</table>
 				</div>
 
-				<div id="2" style = {{color: 'gray'}} className = "mainBody gray f3 pb3 pt4"  > Programme 2 </div>
-				<div className= "four pl4">
+				<div id="2" style = {{color: 'gray'}} className = "apple gray f3 pb3 pt4"  > Programme 2 </div>
+				<div className= "apple gray pl4">
 				<table>
 					  <tr>
-					    <td>Number of Participants</td>
+					    <td>Number of Participants&nbsp;</td>
 					    <td>5-500</td>
 					    
 					  </tr>
@@ -156,11 +189,11 @@ const Curriculum = () => {
 				</table>
 				</div>
 
-				<div id="3" style = {{color: 'gray'}} className = "mainBody gray f3 pb3 pt4"  > Programme 3 </div>
-				<div className= "four pl4">
+				<div id="3" style = {{color: 'gray'}} className = "apple gray f3 pb3 pt4"  > Programme 3 </div>
+				<div className= "apple gray pl4">
 				<table>
 					  <tr>
-					    <td>Number of Participants</td>
+					    <td>Number of Participants&nbsp;</td>
 					    <td>5-500</td>
 					    
 					  </tr>
@@ -196,11 +229,11 @@ const Curriculum = () => {
 				</table>
 				</div>
 
-				<div id="4" style = {{color: 'gray'}} className = "mainBody gray f3 pb3 pt4"  > Programme 4 </div>
-				<div className= "four pl4">
+				<div id="4" style = {{color: 'gray'}} className = "apple gray f3 pb3 pt4"  > Programme 4 </div>
+				<div className= "apple gray pl4">
 				<table>
 					  <tr>
-					    <td>Number of Participants</td>
+					    <td>Number of Participants&nbsp;</td>
 					    <td>5-500</td>
 					    
 					  </tr>
