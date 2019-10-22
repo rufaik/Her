@@ -16,10 +16,10 @@ const Partners = () => {
       	<div style = {{color: 'gray'}} className = "mainBody gray tc pa4 pt2 pl4 pb1">
 
       		We love to give gifts! So at the end of each 
-      		session we give your girls a small gift box  of 
+      		session we give your girls a small gift box of 
       		goodies filled with deodorant, pads, tampons and sweets! We do this to make sure the girls
-      		are equipped with the essentials when we leave, also its something to remember us by! <br></br>In 
-      		addition to this, we partner with a number of companies to ensure 
+      		are equipped with the essentials when we leave and also its something to remember us by! <br></br>In 
+      		addition to this, we endorse a number of companies to ensure 
       		that we can refer your girls to well respected and reliable brands. 
       	</div>
       	<div style = {{ width: 'auto'}}className = 'horse tc ml4 mr4 pb4 pa1'>

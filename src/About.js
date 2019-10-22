@@ -17,12 +17,12 @@ const About = () => {
 				
 				HerBasics was founded by Kemi Rufai, she has been working with young people since 2014, helping them to realise their potential and walking beside them while they navigate life’s obstacles. She is passionate about equipping young people with the correct tools to make healthy decisions and make sure they have what it takes to stand when life doesn’t play along.
 
-				<br></br>Kemi created HerBasics because she kept having conversations with her young people and women her own age and noticed a gap of knowledge and a pattern of low self-esteem. Frustrated she crafted the curriculum using tools she had learnt from the Shine program, an accredited female empowerment programme and her own experience.
+				<br></br>Kemi created HerBasics because she kept having conversations with her young people and women her own age and noticed a gap of knowledge and a pattern of low self-esteem. Frustrated she crafted the curriculum using tools she had learnt from the Shine program, an accredited female empowerment programme and her own expertise.
 
 				<div style = {{ width: 'auto'}}className = 'horse tc ml4 mr4 pb4 pa1'>
     
       	</div>
-      			<br></br>HerBasics found that many women from the ages of 20- 60 do not have the basic knowledge on how to pick the right bra, what actually happens at that time of the month and what their worth actually is. Our mission is to equip young women everywhere with the basic information on their periods, bras and self-worth so that as they grow they can build on this foundational knowledge make confident and educated decisions on what works for them.
+      			<br></br>HerBasics found that many women from the ages of 20- 60 do not have the basic knowledge on how to pick the right bra, what actually happens at that time of the month and what their worth actually is. Our mission is to equip young women everywhere with the basic information on their periods, bras and self-worth so that as they grow they can build on this foundational knowledge to make confident and educated decisions on what works for them.
 
 				<br></br>
       			<br></br>The main tools used in the programmes are:
