@@ -103,7 +103,7 @@ const Curriculum = () => {
 				<table className ="pa2 frog">
 					  <tr>
 					    <td>No. of Participants&nbsp;&nbsp;</td>
-					    <td className="down pb1" >5-500</td>
+					    <td className="down pb1" >5-200</td>
 					    
 					  </tr>
 					  <tr>
@@ -145,7 +145,7 @@ const Curriculum = () => {
 				<table>
 					  <tr>
 					    <td>Number of Participants&nbsp;</td>
-					    <td>5-500</td>
+					    <td>5-200</td>
 					    
 					  </tr>
 					  <tr>
@@ -194,7 +194,7 @@ const Curriculum = () => {
 				<table>
 					  <tr>
 					    <td>Number of Participants&nbsp;</td>
-					    <td>5-500</td>
+					    <td>5-200</td>
 					    
 					  </tr>
 					  <tr>
@@ -234,7 +234,7 @@ const Curriculum = () => {
 				<table>
 					  <tr>
 					    <td>Number of Participants&nbsp;</td>
-					    <td>5-500</td>
+					    <td>5-200</td>
 					    
 					  </tr>
 					  <tr>
