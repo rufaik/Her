@@ -113,6 +113,7 @@ ul.bullet{
 table.lassy {
   table-layout: fixed ;
   width: 100% ;
+  border-spacing: 0px;
 }
 td.lassy {
   width: 25% ;

@@ -22,21 +22,28 @@ const Curriculum = () => {
    	 		<table className = "lassy pb0">
 					  <tr className= "no-bottom-border">
 					    <td className = "lassy">
-						    <div className = "apple" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "gray f3 f5-ns "> Her Self-esteem</div><div className = "pt2 golcol f7 pt1-ns" >&nbsp;covers...</div></div>
+						    <div className = "apple" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "gray f6 f5-ns "> Her Self-esteem</div><br></br></div>
 							
 					    </td>
-					    <td className = "lassy">
-						    <div className = "apple" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "gray f3 f5-ns "> Her Bra</div><div className = "pt2 golcol f7 pt1-ns" >&nbsp;covers...</div></div>
+					    <td className = "lassy pb0">
+						    <div className = "apple" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "gray f6 f5-ns "> Her Bra</div></div>
 							
 					    </td>
-					    <td className = "lassy">
-					    	<div className = "apple" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "gray f3 f5-ns "> Her Period</div><div className = "pt2 golcol f7 pt1-ns" >&nbsp;covers...</div></div>
+					    <td className = "lassy pb0">
+					    	<div className = "apple" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "gray f6 f5-ns "> Her Period</div></div>
 							
 							
 							
 					    </td>
 					    
 					  </tr>
+
+
+					  
+
+
+
+
 
 					  <tr className = "apple gray mb3 f6 no-bottom-border">
 					  	<td>
