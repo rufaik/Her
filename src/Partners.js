@@ -12,7 +12,7 @@ const Partners = () => {
     <Navigation showLogo={true}/>
     <div className="pt5">
 		<div className = ' bracket w-100 w-50-ns tl pr1 pr4-ns pl1 pl4-ns pb4 '>
-          <div className = 'I tc pa4 f1 f-subheadline-ns mt0'> Our Partners </div>
+          <div className = 'I tc pa4 f1 f-subheadline-ns mt0'> Who We Endorse </div>
       	<div style = {{color: 'gray'}} className = "mainBody gray tc pa4 pt2 pl4 pb1">
 
       		We love to give gifts! So at the end of each 

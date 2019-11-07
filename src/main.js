@@ -16,7 +16,7 @@ email: './inspec.svg'
 
 {
 id: 3,
-name: 'Our Partners',
+name: 'Who We Endorse',
 email: './team.svg'
 
 }
