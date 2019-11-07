@@ -20,17 +20,17 @@ const Curriculum = () => {
 			<br></br>
 
    	 		<table className = "lassy pb0">
-					  <tr className= "no-bottom-border">
+					  <tr className= " no-bottom-border">
 					    <td className = "lassy">
-						    <div className = "apple" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "gray f6 f5-ns "> Her Self-esteem</div><br></br></div>
+						    <div className = "apple" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "pl3 gray f6 f5-ns "> Her Self-esteem</div><br></br></div>
 							
 					    </td>
 					    <td className = "lassy pb0">
-						    <div className = "apple" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "gray f6 f5-ns "> Her Bra</div></div>
+						    <div className = "apple" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "pl3 gray f6 f5-ns "> Her Bra</div></div>
 							
 					    </td>
 					    <td className = "lassy pb0">
-					    	<div className = "apple" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "gray f6 f5-ns "> Her Period</div></div>
+					    	<div className = "apple" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "pl3 gray f6 f5-ns "> Her Period</div></div>
 							
 							
 							
@@ -80,7 +80,7 @@ const Curriculum = () => {
 
 			</table>
 
-    		<div className = "apple gray pt3 f2 f1-ns pb2 " style = {{color: 'gray'}} >Programmes we offer..</div>
+    		<div className = "apple gray pt3 f2 f1-ns pb2 pl2 " style = {{color: 'gray'}} >Programmes we offer..</div>
 				<div className = "apple golcol f6 tl mt0 pl3 pr3"> Research shows that 80% of women are wearing the wrong sized bra AND have low self-esteem and 1 in 4 women don't understand their menstrual cycle 
 
 				Our role is to create a foundation for your girls to make informed decisions in the right direction.
@@ -105,7 +105,7 @@ const Curriculum = () => {
 
 
 
-				<div id="1" style = {{color: 'gray'}} className = "apple gray f3 pb3 pt4"  > Programme 1 </div>
+				<div id="1" style = {{color: 'gray'}} className = "apple gray f3 pb3 pl2 pt4"  > Programme 1 </div>
 				<div className= "apple gray pl4">
 				<table className ="pa2 frog">
 					  <tr>
@@ -147,7 +147,7 @@ const Curriculum = () => {
 				</table>
 				</div>
 
-				<div id="2" style = {{color: 'gray'}} className = "apple gray f3 pb3 pt4"  > Programme 2 </div>
+				<div id="2" style = {{color: 'gray'}} className = "apple gray pl2 f3 pb3 pt4"  > Programme 2 </div>
 				<div className= "apple gray pl4">
 				<table>
 					  <tr>
@@ -196,7 +196,7 @@ const Curriculum = () => {
 				</table>
 				</div>
 
-				<div id="3" style = {{color: 'gray'}} className = "apple gray f3 pb3 pt4"  > Programme 3 </div>
+				<div id="3" style = {{color: 'gray'}} className = "apple gray pl2 f3 pb3 pt4"  > Programme 3 </div>
 				<div className= "apple gray pl4">
 				<table>
 					  <tr>
@@ -236,7 +236,7 @@ const Curriculum = () => {
 				</table>
 				</div>
 
-				<div id="4" style = {{color: 'gray'}} className = "apple gray f3 pb3 pt4"  > Programme 4 </div>
+				<div id="4" style = {{color: 'gray'}} className = "apple pl2 gray f3 pb3 pt4"  > Programme 4 </div>
 				<div className= "apple gray pl4">
 				<table>
 					  <tr>
