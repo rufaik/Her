@@ -2,6 +2,7 @@ import React from 'react';
 import Card from './Card'
 import './App.css';
 import './Me.css'
+import './Home.css'
 import './Complete.css'
 import CardList from './CardList'
 import { main } from './main'
@@ -13,32 +14,89 @@ import Logo from './Logo'
 import './Logo.css';
 import Gold from './Gold'
 import {Animated} from "react-animated-css"
+import { Slide } from 'react-slideshow-image';
+import { Fade } from 'react-slideshow-image';
+import Nav from './Nav'
 
+
+  const fadeImages = [
+  './booked.svg',
+  './inspec.svg',
+  './team.svg'
+];
  
+const fadeProperties = {
+  duration: 5000,
+  transitionDuration: 500,
+  infinite: true,
+  indicators: false,
+  arrows: false,
+  onChange: (oldIndex, newIndex) => {
+    console.log(`fade transition from ${oldIndex} to ${newIndex}`);
+  }
+}
 
 const Me = () => {
   return (
   	<div>
-    <Navigation />
-    <div className="pt5">
-    <div className="tc">
+    <Nav />
+   
+<div size={400} style = {{ width: 'fit-content'}} className = "J pb0 mb0 mt1 mt5-ns pa2 pa3-ns ml1 ml0-ns mr1 mr7-ns">
+    HerBasics <br></br><div className='f7 f4-ns  frontfont'>Equipping girls with 3 basic elements 
+    <br></br>so that they can build their lives on healthy foundations
+    <br></br>Her Bra
+    <br></br> Her Self-Esteem
+    <br></br> Her Period
+    <br></br>
+      <br></br>
+    <Link to="/Curriculum"><button type="button" class="btn btn-outline-warning">Check out Our Curriculum >>></button></Link>
+    </div>
+   
+   
 
-     <div size={400} style = {{display: 'flex', justifyContent: 'center', width: 'fit-content', margin: '0 auto'}} className = "J pb0 mb0 pa2 pa3-ns ml1 ml7-ns mr1 mr7-ns">
-    HerBasics
- 
+
   </div>
 
-<div style = {{display: 'flex', justifyContent: 'center', width: 'fit-content', margin: '0 auto', paddingBottom:'0'}} ><p
-    className = "pa2 pt2 pt0-ns mt0 pa3-ns f7 f5-ns ml1 ml7-ns mr1 mr7-ns"> 
-    Her Bra&ensp;&ensp;•&ensp;&ensp;Her Self-Esteem&ensp;&ensp;•&ensp;&ensp;Her Period</p></div><br></br>
-  <div className= 'pl4 pl0-ns pr4 pr0-ns'>
-    <CardList main={main}/>
+
+ 
+
+    <div className="slide-container mt6" >
+      <Fade {...fadeProperties}>
+        <div className="each-fade">
+        <h2></h2>
+          <div className="image-container">
+            <img src={fadeImages[0]} />
+          </div>
+          
+        </div>
+        <div className="each-fade">
+         <h2></h2>
+          <div className="image-container">
+            <img src={fadeImages[1]} />
+          </div>
+         
+        </div>
+        <div className="each-fade">
+        <h2></h2>
+          <div className="image-container">
+            <img src={fadeImages[2]} />
+          </div>
+          
+        </div>
+      </Fade>
     </div>
     </div>
-    </div>
-    </div>
-  );
-    }
+  )
+}
+
+
+
+
+
+
+
+
+
 
 
 export default Me;

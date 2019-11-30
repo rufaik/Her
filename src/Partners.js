@@ -2,14 +2,15 @@ import React from 'react';
 import './Logo.css';
 import './Partners.css';
 import {Link} from 'react-router-dom';
-import Navigation from './Navigation'
+import Navigation from './Navigation';
+ import Nav from './Nav'
 
  
 
 const Partners = () => {
   return (
   	<div>
-    <Navigation showLogo={true}/>
+    <Nav/>
     <div className="pt5">
 		<div className = ' bracket w-100 w-50-ns tl pr1 pr4-ns pl1 pl4-ns pb4 '>
           <div className = 'I tc pa4 f1 f-subheadline-ns mt0'> Who We Endorse </div>

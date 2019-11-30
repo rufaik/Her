@@ -1,6 +1,7 @@
 import React from 'react';
 import './Logo.css';
-import Navigation from './Navigation'
+import Navigation from './Navigation';
+ import Nav from './Nav'
  
 
 const About = () => {
@@ -8,8 +9,8 @@ const About = () => {
 
   	<div>
 
-    	<Navigation showLogo={true}/>
-    	<div className="pt5">
+    	<Nav/>
+    	<div className="ml7 mr7">
 		<div className = ' bracket w-100 w-50-ns tl pr1 pr4-ns pl1 pl4-ns pb4 '>
       		<div className = 'I tc pa4 f1 f-subheadline-ns mt0'> Who We Are</div>
 

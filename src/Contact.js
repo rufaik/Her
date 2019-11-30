@@ -4,13 +4,15 @@ import ThankYou from './ThankYou'
 import {Link} from 'react-router-dom';
 import Navigation from './Navigation'
 import ZapierForm from 'react-zapier-form'
+import Nav from './Nav'
+import './Contact.css';
 
 
 const Contact = () => {
 	return (
 		<div >
-		 <Navigation showLogo={true}/>
-		 <div className="pt5">
+		 <Nav/>
+		 <div className=" ">
 
 				<ZapierForm  action='https://hooks.zapier.com/hooks/catch/5717228/o3ntgre/'>
    {({ error, loading, success }) => {
@@ -18,7 +20,7 @@ const Contact = () => {
          <div>
             {!success && !loading &&
                <div>
-               <article className="br3 bg-white ba b--black-10 mv1 w-100 w-50-m pb3 w-25-l shadow-5 center">
+               <article className="br3 bg-white ba b--black-10 mv1  shadow-5 center" style = {{ maxWidth: '330px'}}>
 <main className="pa4 pb0 black-80 measure">
 		    <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
 		    <legend className=" two f1 fw6 ph0 mh0">Contact Us</legend>
