@@ -21,7 +21,7 @@ const Nav = () => {
   return (
   	<div>
     <nav class="navbar navbar-expand-lg navbar-light bg-white bb frontfont b--yellow shadow-5">
-  <a class="navbar-brand" href="#"><img  alt='robots' 
+  <a class="navbar-brand" href="/Home"><img  alt='robots' 
                     src='./logo.png' className ='w2'/></a>
   
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

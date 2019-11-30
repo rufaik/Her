@@ -10,11 +10,7 @@ import LogoHeader from './Logo header'
 import Navigation from './Navigation'
 import 'tachyons';
 import {Link} from 'react-router-dom';
-import Logo from './Logo'
-import './Logo.css';
 import Gold from './Gold'
-import {Animated} from "react-animated-css"
-import { Slide } from 'react-slideshow-image';
 import { Fade } from 'react-slideshow-image';
 import Nav from './Nav'
 
@@ -39,17 +35,17 @@ const fadeProperties = {
 const Me = () => {
   return (
   	<div>
-    <Nav />
-   
-<div size={400} style = {{ width: 'fit-content'}} className = "J pb0 mb0 mt1 mt5-ns pa2 pa3-ns ml1 ml0-ns mr1 mr7-ns">
-    HerBasics <br></br><div className='f7 f4-ns  frontfont'>Equipping girls with 3 basic elements 
+    <Nav  />
+   <br></br>
+<div size={400} style = {{ width: 'fit-content'}} className = "J gown pb0  pa2 pa3-ns ">
+    HerBasics <br></br><div className='f7 f4-ns mt2 mt0-ns frontfont'>Equipping girls with 3 basic elements 
     <br></br>so that they can build their lives on healthy foundations
     <br></br>Her Bra
     <br></br> Her Self-Esteem
     <br></br> Her Period
     <br></br>
-      <br></br>
-    <Link to="/Curriculum"><button type="button" class="btn btn-outline-warning">Check out Our Curriculum >>></button></Link>
+      <br ></br>
+    <Link to="/Curriculum" ><button type="button" class="btn mt2 mt0-ns f7 f5-ns btn-outline-warning">Check out Our Curriculum >>></button></Link>
     </div>
    
    

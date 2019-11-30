@@ -13,7 +13,7 @@ const Curriculum = () => {
   		<div>
     	<Nav/>
     	</div>
-    	<div className="ml7 mr7">
+    	<div className="ml7-ns mr7-ns">
 		<div className = ' bracket w-100 w-60-ns tl pr1 pr4-ns pl1 pl4-ns pb4 '>
       		<div className = 'I tc pa4 f1 f-subheadline-ns mt0'> Our Curriculum</div>
    	 		<div className = "golcol frontfont center f6 tc mt0 pl3 pb4 pr3" >Our Vision is that every woman would be equipped with the basics on self-care and self-worth from as early as possible. We want young women to start their journey into adolescence equipped and confident when making decisions about their bodies. We do this by teaching 3 main modules..</div>

@@ -1,11 +1,113 @@
-.slide-container {
+/*.slide-container {
   width: 70%;
   position: absolute;
   right: 0px;
   top: 0px;
   z-index: -1
 
+}*/
+
+.gown{
+  margin-right:auto;
+  margin-left: auto; 
 }
+
+@media screen and (min-width: 860px) {
+   .slide-container  {
+    width: 70%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1
+   }
+ };
+
+ @media screen and (min-width: 1020px) {
+   .slide-container  {
+     width: 70%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1
+   }
+ };
+
+ @media screen and (min-width: 767px) {
+   .slide-container  {
+   width: 70%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1
+   }
+ };
+
+ @media screen and (min-width: 620px) {
+   .slide-container  {
+     width: 70%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1
+   }
+ };
+
+ @media screen and (min-width: 420px) {
+   .slide-container  {
+    width: 70%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1
+   }
+ }
+
+ @media screen and (min-width: 860px) {
+   .gown  {
+    margin-top: 4rem;
+  margin-right: 16rem;
+  margin-left: 0;;
+  margin-bottom: 0;
+ 
+   }
+ };
+
+ @media screen and (min-width: 1020px) {
+   .gown  {
+      margin-top: 4rem;
+  margin-right: 16rem;
+  margin-left: 0;;
+  margin-bottom: 0;
+   }
+ };
+
+ @media screen and (min-width: 767px) {
+   .gown  {
+    margin-top: 4rem;
+  margin-right: 16rem;
+  margin-left: 0;;
+  margin-bottom: 0;
+   }
+ };
+
+ @media screen and (min-width: 620px) {
+   .gown  {
+      margin-top: 4rem;
+  margin-right: 16rem;
+  margin-left: 0;;
+  margin-bottom: 0;
+   }
+ };
+
+ @media screen and (min-width: 420px) {
+   .gown  {
+     margin-top: 4rem;
+  margin-right: 16rem;
+  margin-left: 0;;
+  margin-bottom: 0;
+   }
+ }
+
 
 h3 {
   text-align: center; }
@@ -31,7 +133,7 @@ h3 {
 
 .each-fade .image-container {
   width: 75%;
-  overflow: hidden;
+  
 }
 
 .each-fade .image-container img {
@@ -39,13 +141,44 @@ h3 {
 }
 
 .each-fade h2 {
-  width: 25%;
+  width: 13%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
   background: white;
 }
+
+ @media screen and (min-width: 860px) {
+   .each-fade h2  {
+   width: 25%;
+ 
+   }
+ };
+
+ @media screen and (min-width: 1020px) {
+   .each-fade h2  {
+      width: 25%;
+   }
+ };
+
+ @media screen and (min-width: 767px) {
+   .each-fade h2  {
+     width: 25%;
+   }
+ };
+
+ @media screen and (min-width: 620px) {
+   .each-fade h2  {
+      width: 25%;
+   }
+ };
+
+ @media screen and (min-width: 420px) {
+   .each-fade h2  {
+      width: 25%;
+   }
+ }
 
 .frontfont{
   font-family: 'PT Sans', sans-serif;
