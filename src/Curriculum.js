@@ -19,66 +19,58 @@ const Curriculum = () => {
    	 		<div className = "golcol frontfont center f6 tc mt0 pl3 pb4 pr3" >Our Vision is that every woman would be equipped with the basics on self-care and self-worth from as early as possible. We want young women to start their journey into adolescence equipped and confident when making decisions about their bodies. We do this by teaching 3 main modules..</div>
 			<br></br>
 
-   	 		<table className = "lassy pb0">
-					  <tr className= " no-bottom-border">
-					    <td className = "lassy">
-						    <div className = "frontfont" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "pl3 gray f6 f5-ns "> Her Self-esteem</div><br></br></div>
-							
-					    </td>
-					    <td className = "lassy pb0">
-						    <div className = "frontfont" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "pl3 gray f6 f5-ns "> Her Bra</div></div>
-							
-					    </td>
-					    <td className = "lassy pb0">
-					    	<div className = "frontfont" style = {{display: 'flex', justifyContent: 'flex-start'}}><div className = "pl3 gray f6 f5-ns "> Her Period</div></div>
-							
-							
-							
-					    </td>
+
+			<div className = "container ">
+					  <div className= "row">
 					    
-					  </tr>
-
-
-					  
-
-
-
-
-
-					  <tr className = "frontfont gray mb3 f6 no-bottom-border">
-					  	<td>
-						  
-							<ul className = 'bullet'>
+						    <div className = "frontfont col-12 col-md-4" ><div className = " "> 
+						    Her Self-esteem
+						    <ul className = ''>
 							<li>Basic Worth - the value that each person possesses regardless of their external environment</li>
 							<li>Basic Strength - how resilience and discipline play a role in our lives</li>
 							<li>Basic Purpose - knowing that every person has a purpose</li>
 					    	</ul>
-					    	
-					    </td>
-					    <td>
-						  
-							<ul className = 'bullet'>
+
+
+						    </div><br></br></div>
+							
+					   
+					   
+						    <div className = "frontfont col-12 col-md-4" ><div className = ""> 
+						    Her Bra
+
+						    <ul className = ''>
 							<li>Basic Mechanics - the structure of a bra, why each part is necessary and sizing</li>
 							<li>Basic Shopping how-to's - how to buy a good bra</li>
 							<li>Basic Must Haves - what bras are essential and necessary</li>
 							</ul>
-						
-					    </td>
-					    <td>
+
+
+						    </div></div>
+							
+					   
 					    
-							<ul className = 'bullet'>
+					    	<div className = "frontfont col-12 col-md-4" ><div> 
+					    	Her Period
+
+					    	<ul className = ''>
 							<li>Basic Biology - what happens in the body when a woman is on her period</li>
 							<li>Basic Hygiene - the increased levels of hygiene that a woman should participate in now that her period has begun</li>
 							<li>Basic Must-Haves - the importance of pads, tampons and deodorant</li>
 							</ul>
+
+					    	</div></div>
 							
-					    </td>
+							
+							
+					    
+					    
+					  </div>
 
 
+	
 
-					  </tr>
-
-			</table>
+			</div>
 
     		<div className = "frontfont gray pt3 f2 f1-ns pb2 pl2 " style = {{color: 'gray'}} >Programmes we offer..</div>
 				<div className = "frontfont golcol f6 tl mt0 pl3 pr3"> Research shows that 80% of women are wearing the wrong sized bra AND have low self-esteem and 1 in 4 women don't understand their menstrual cycle 
@@ -89,16 +81,16 @@ const Curriculum = () => {
 				</div>
 				
 				<div style = {{color: 'gray'}} className = "ink tc ma0 pl3 pl2-ns pr3 pr2-ns pt4 pb0">
-				<a href="#1"><button className = " frontfont gray" >
+				<a href="#1"><button className = " frontfont gray pl0 pr0" >
 				1</button></a>
 				
-				<a href="#2"><button className = " frontfont gray" >
+				<a href="#2"><button className = " frontfont gray pl0 pr0" >
 				2</button></a>
 
-				<a href="#3"><button className = " frontfont gray" >
+				<a href="#3"><button className = " frontfont gray pl0 pr0" >
 				3</button></a>
 
-				<a href="#4"><button className = " frontfont gray" >
+				<a href="#4"><button className = " frontfont gray pl1 pl0-ns" >
 				4</button></a>
 				
 				</div>
