@@ -54,7 +54,7 @@ const Contact = () => {
 		      </div>
 		      </fieldset>
                   <button
-                  className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" 
+                  className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib mb3" 
                   >Submit</button>
                   </main>
                   </article>
