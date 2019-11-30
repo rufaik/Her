@@ -90,7 +90,7 @@ const Curriculum = () => {
 				<a href="#3"><button className = " frontfont gray pl0 pr0" >
 				3</button></a>
 
-				<a href="#4"><button className = " frontfont gray pl1 pl0-ns" >
+				<a href="#4"><button className = " frontfont gray pl0 pr0" >
 				4</button></a>
 				
 				</div>
