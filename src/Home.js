@@ -56,7 +56,7 @@ const Me = () => {
 
  
 
-    <div className="slide-container mt6" >
+    <div className="slide-container mt5 mt6-ns" >
       <Fade {...fadeProperties}>
         <div className="each-fade">
         <h2></h2>
